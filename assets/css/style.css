@@ -1,0 +1,112 @@
+/* CSS Document */
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', sans-serif;
+    color: black;
+}
+
+.btn {
+    font-size: 20px;
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.badge {
+    margin: 0.2rem;
+}
+
+.logo {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 1rem;
+}
+
+.menu-fijo {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    width: 20%;
+    height: 70%;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    filter: brightness(0.9);
+    -webkit-filter: brightness(0.9);
+    margin: 1rem;
+}
+
+.columna-fija {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-fija {
+    position: sticky;
+    padding: 1rem;
+    top: 1rem;
+    width: 99%;
+    z-index: 10;
+    max-width: 99%;
+}
+
+.transparente-oscuro {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    word-wrap: break-word !important;
+    overflow: visible !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    filter: brightness(0.9);
+    -webkit-filter: brightness(0.9);
+    margin: 1rem;
+    box-sizing: border-box;
+    text-overflow: unset !important;
+    white-space: normal !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.transparente-oscuro:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+
+.transparente-claro {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+    margin: 1rem;
+    box-sizing: border-box;
+    overflow: visible;
+    text-overflow: unset;
+    white-space: normal;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
