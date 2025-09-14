@@ -1,7 +1,7 @@
 # Evently
 Pequeño proyecto, que consite en una página de eventos locales en España.  
 Escrito enteramente en PHP integrado en HTML, para la lógica y funcionalidad de la página, y utilizando CSS, como hoja de estilo para la interfaz de usuario.
-La página se comunica con una Base de Datos MySQL (script de creación de dicha base de datos -> [scriptBD](scriptBD/evently.sql))
+La página se comunica con una Base de Datos MySQL (script de creación de dicha base de datos -> [scriptBD](scriptBD/evently.sql)).
 
 
 ## Usuario
