@@ -1,2 +1,11 @@
 # Evently
-Página de eventos locales
+Pequeño proyecto, que consite en una página de eventos locales.
+Escrito enteramente en PHP integrado en HTML, para la funcionalidad y lógica de la página y utilizando CSS, como hoja de estilo para la interfaz de usuaro.
+La página se comunica con una Base de Datos MySQL (dicho script de creación de la base de datos se encuantra en: [scriptBD](scriptBD))
+
+
+## Usuario
+El usuario puede apuntarse a un evento social o crear uno propio.
+
+## Evento
+El evento tiene información tal como el nombre del evento, descripción, provincia (exclusivamente España), fecha y hora.
