@@ -5,7 +5,7 @@ La página se comunica con una Base de Datos MySQL (dicho script de creación de
 
 
 ## Usuario
-El usuario puede apuntarse a un evento social o crear uno propio.
+El usuario puede apuntarse a un evento o crear uno propio.
 
 ## Evento
 El evento tiene información tal como el nombre del evento, descripción, provincia (exclusivamente España), fecha y hora.
